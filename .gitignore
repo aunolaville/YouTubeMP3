@@ -1,3 +1,6 @@
+# Ignore all directories
+*/
+
 # Logs
 logs
 *.log
