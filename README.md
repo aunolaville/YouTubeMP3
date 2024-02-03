@@ -2,7 +2,7 @@
  Convert Youtube videos to MP3 files
 
 ## Prerequisites
-[Node.js](https://nodejs.org/en) installed
+[Node.js](https://nodejs.org/en) installed (v20.6.0 or newer)
 <br>[FFmpeg](https://www.gyan.dev/ffmpeg/builds/) "installed"
 ## FFmpeg "installation"
 Download ffmpeg-git-full.7z
