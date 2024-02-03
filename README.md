@@ -1,19 +1,34 @@
 # YouTubeMp3
- 
-# Download FFmpeg
--> https://ffmpeg.org/download.html
---> https://www.gyan.dev/ffmpeg/builds/
----> ffmpeg-git-full.7z
+ Convert Youtube videos to MP3 files
 
-# Unzip somewhere e.g. root of E:
-# Add that path e.g. E:\FFmpeg\bin to path environment
--> Settings -> About -> Advanced system settings
---> Environment Variables... --> Path --> Edit --> New --> E:\FFmpeg\bin
----> OK -> OK -> OK
+## Prerequisites
+[Node.js](https://nodejs.org/en) installed
+<br>[FFmpeg](https://www.gyan.dev/ffmpeg/builds/) "installed"
+## FFmpeg "installation"
+Download ffmpeg-git-full.7z
+<br>Unzip somewhere e.g. root of D:
+<br>Add that path e.g. D:\FFmpeg\bin to path environment
+<br>(Settings -> About -> Advanced system settings --> Environment Variables... --> Path --> Edit --> New --> D:\FFmpeg\bin ---> OK -> OK -> OK)
 
-# Clone repository
-# npm install
-# folder name and audio bit rate can be changed in .env file
-# run start.bat
-# copy and paste url
-# file is saved to "converted_files" by default
+## Setup
+Clone repository / Download ZIP & unzip somewhere
+<br>Open command line and install packages
+```bash
+cd C:\Users\user\path\to\the\folder\YouTubeMP3
+```
+```bash
+npm install
+```
+## Usage
+Folder name and audio bit rate can be changed in .env file
+<br>Run start.bat
+<br>Or open command line and start the app
+```bash
+cd C:\Users\user\path\to\the\folder\YouTubeMP3
+```
+```bash
+node --env-file=.env app.js
+```
+Copy and paste url of YouTube video
+<br>File is downloaded and saved to "converted_files" by default
+<br>Press ctrl + C when you want to exit
