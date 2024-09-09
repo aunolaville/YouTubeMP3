@@ -2,7 +2,7 @@ import { existsSync, mkdirSync } from 'fs';
 import { createInterface } from 'readline';
 import { fileURLToPath } from 'url';
 import path from 'path';
-import ytdl from 'ytdl-core';
+import ytdl from '@distube/ytdl-core';
 import ffmpeg from 'fluent-ffmpeg';
 
 /* Get the path to the file and the name of the current directory*/
