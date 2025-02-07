@@ -10,7 +10,7 @@
   "author": "Ville Aunola",
   "license": "ISC",
   "dependencies": {
-    "@distube/ytdl-core": "^4.14.4",
+    "@distube/ytdl-core": "^4.16.0",
     "fluent-ffmpeg": "^2.1.2"
   },
   "type": "module"
